@@ -1,20 +1,11 @@
-.fieldsetbleu {
+.fieldsetbleu, .legendbleu {
     background-color:blue;
 }
-.fieldsetviolet {
+.fieldsetviolet, .legendviolet {
     background-color:violet;
 }
-.fieldsetrouge {
+.fieldsetrouge, .legendrouge {
     background-color:red;
-}
-.legendbleu {
-    background-color:blue;
-}
-.legendviolet {
-    background-color:violet;
-}
-.legendrouge {
-    background-color: red;
 }
 
 #VISA {
