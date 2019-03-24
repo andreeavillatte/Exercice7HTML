@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css" type="text/css">
@@ -9,39 +9,38 @@
 </head>
 
 <body>
-
-<form method="post" action="traitement.php">
+<form method="post" action="http://www.example.com/example.htm">
     <fieldset class="fieldsetbleu">
         <legend class="legendbleu">Votre identité</legend> <!-- Titre du fieldset Votre identité -->
             <ol>
-                <li>    
+                <li>
                     <label for="Nom">Nom :</label>
                     <input type="text" name="Nom" id="Nom" placeholder="Nom" />
                 </li>
-                <li>    
+                <li>
                     <label for="Prénom">Prénom:</label>
                     <input type="text" name="Prénom" id="Prénom" placeholder="Prénom" />
                 </li>
                 <li>
                     <label for="mail">Adresse mail:</label>
-                    <input type="text" name="Adresse mail" id="mail" placeholder="Adresse mail" />            
+                    <input type="text" name="Adresse mail" id="mail" placeholder="Adresse mail" />
                 </li>
             </ol>
     </fieldset>
     <fieldset class="fieldsetviolet">
         <legend class="legendviolet">Adresse du livraison</legend> <!-- Titre du fieldset Adresse du livraison-->
             <ol>
-                <li>    
+                <li>
                     <label for="Adresse">Adresse :</label>
                     <textarea name="Adresse" id="Adresse" rows="4" cols="15"></textarea>
                 </li>
-                <li>    
+                <li>
                     <label for="Code_postal">Code postal :</label>
                     <input type="text" name="Code postal" id="Code_postal" placeholder="Code postal" />
                 </li>
                 <li>
                     <label for="Ville">Ville :</label>
-                    <input type="text" name="Ville" id="Ville" placeholder="Ville" />            
+                    <input type="text" name="Ville" id="Ville" placeholder="Ville" />
                 </li>
             </ol>
     </fieldset>
@@ -53,22 +52,22 @@
                     <input type="radio" name="age" value="VISA" id="VISA" /> <label for="VISA">VISA</label><br />
                     <input type="radio" name="age" value="Mastercard" id="Mastercard" /> <label for="Mastercard">Mastercard</label><br />
                 </li>
-                <li>    
+                <li>
                     <label for="Numero">Numéro de carte :</label>
                     <input type="text" name="Numero" id="Numero" placeholder="Numero" />
                 </li>
                 <li>
                     <label for="Code_securité">Code de securité :</label>
-                    <input type="text" name="Code de securité" id="Code_securité" placeholder="Code de securité" />            
+                    <input type="text" name="Code de securité" id="Code_securité" placeholder="Code de securité" />
                 </li>
                 <li>
                     <label for="Nom_titulaire">Nom du titulaire :</label>
-                    <input type="text" name="Nom du titulaire" id="Nom_titulaire" placeholder="Nom du titulaire" />            
+                    <input type="text" name="Nom du titulaire" id="Nom_titulaire" placeholder="Nom du titulaire" />
                 </li>
             </ol>
 
         </fieldset>
-    <input type="submit" value="J'achète!" />    
+    <input type="submit" value="J'achète">
 </form>
 
 </body>
